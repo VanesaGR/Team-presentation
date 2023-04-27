@@ -1,0 +1,137 @@
+.container-hero {
+  position: relative;
+}
+
+.imagen-hero {
+  width: 100vw;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-hero {
+  background-color: #fbfbfb;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 290px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#team{ 
+  scroll-margin-top: 95px;
+}
+
+.box-equipo {
+  padding: 30px 15px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.box-equipo-titulo {
+  color: #FFAB60;
+  display: flex;
+  height: 45px;
+  margin: 0 100px 15px 101.5px;
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.box-equipo-texto {
+  height: auto;
+  margin: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+}
+
+.titulo-1 {
+  font-family: "Rubik";
+  color: #FFAB60;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.subtitulo1 {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5rem;
+  line-height: 1.5;
+}
+
+.box2, .box3 {
+  width: 50vw;
+  border: 2px solid #d6d6da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  line-height: 1.5;
+  background-color: #d6d6da;
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+.container-main1 {
+  background-color: #d6d6da;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
+
+@media all and (min-width: 768px) {
+
+  .container-main1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #team{
+    scroll-margin-top: 55px;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .box-equipo-texto {
+    width: 70rem;
+  }
+}
